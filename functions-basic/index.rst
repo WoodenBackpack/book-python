@@ -93,9 +93,9 @@ Argumenty funkcji to wartości na których ta funkcja wykonuje operacje. W ideal
 Type annotations
 ----------------
 * Od Python 3.5
-* Python code will execute even if types mismatch with annotation!
-* Your IDE will check types and inform you have error
-* Use ``mypy`` or ``pyre-check`` for type checking
+* Kod w języku python wykona się nawet jeśli typ nie zgadza się z adnotacją!
+* Twoje IDE porówna typy oraz poinformuje cię jeżeli wykryje niezgodność
+* Użyj ``mypy`` lub ``pyre-check`` do sprawdzania typów
 
 .. code-block:: python
 
@@ -154,11 +154,11 @@ Arguments with default value
 
     server('admin', 'admin', 'localhost', 80, False)
 
-    server(host='localhost', user='admin', password='admin', ssl=True)
+    server(host='localhost', username='admin', password='admin', ssl=True)
 
     server(
         host='localhost',
-        user='admin',
+        username='admin',
         password='admin',
         port=443,
         ssl=True,

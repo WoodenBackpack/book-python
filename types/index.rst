@@ -414,7 +414,7 @@ Variables and types
 
 Handling user input and type casting
 ------------------------------------
-#. Użytkownik za pomocą wprowadza odległości w metrach
+#. Użytkownik wprowadza odległości w metrach
 #. Użytkownik wprowadza tylko dane typu ``int`` lub ``float``
 #. Dane przy wyświetlaniu muszą być przekonwertowane do typów podanych poniżej
 #. Napisz program który przekonwertuje odległości i wyświetli je w formacie zgodnie z szablonem:

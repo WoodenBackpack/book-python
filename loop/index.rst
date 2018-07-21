@@ -244,7 +244,7 @@ Iterating complex types
 
     for x in DATA:
         for y in x:
-            print(f'Value is: {j}')
+            print(f'Value is: {y}')
 
     # Value is: M
     # Value is: a
@@ -471,7 +471,7 @@ Report card
 Label encoder
 -------------
 #. Mając do dyspozycji zbiór danych Irysów z :numref:`listing-loops-iris-sample`
-#. Przemieszaj w losowej
+#. Przemieszaj elementy
 #. Stwórz słownik gatunków, gdzie kolejnym liczbom naturalnym zaczynając od zera przyporządkuj gatunek irysów
 #. Przygotuj listę cech (``labels``) z kluczami ze słownika gatunków
 

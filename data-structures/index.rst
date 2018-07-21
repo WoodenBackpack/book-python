@@ -182,7 +182,7 @@ Simple collections
     }
 
     my_dict[1969]
-    # 'First step on the moon'
+    # 'First Step on the Moon'
 
 .. code-block:: python
 
@@ -214,7 +214,7 @@ Simple collections
 
     my_dict.keys()                    # ['first_name', 'last_name', 'age']
     my_dict.values()                  # ['José', 'Jiménez', 42]
-    my_dict.items()                   # [('first_name', 'José'), ('last_name', 'Jiménez'), ('age', 30)]
+    my_dict.items()                   # [('first_name', 'José'), ('last_name', 'Jiménez'), ('age', 42)]
 
 Accessing ``dict`` values with ``[...]`` and ``.get(...)``
 ----------------------------------------------------------

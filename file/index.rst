@@ -23,7 +23,7 @@ Files
 
     with open(FILENAME) as file:
         content = file.read()
-
+    # nie musisz sam zamykać pliku, plik zostanie zamknięty gdy opuścimy blok with
     print(content)
 
 

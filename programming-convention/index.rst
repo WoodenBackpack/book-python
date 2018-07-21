@@ -157,7 +157,7 @@ Blank lines
             elif: 0 < port <= 65535
                 raise ValueError(f'Port must be 0-65535')
 
-         def __str__(self):
+        def __str__(self):
             if secure:
                 protocol = 'https'
             else:

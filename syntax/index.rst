@@ -5,7 +5,7 @@ Syntax
 
 Indentation instead of braces
 =============================
-Jest to chyba najbardziej ciekawa rzecz w samym języku. Autorzy specyfikacji zdecydowali się na zastąpienie nawiasów klamrowych wcięciami, czyli tzw. białymi spacjami (ang. whitespace). Jest to dość nietypowe rozwiązanie, które okazało się bardzo rewolucyjne i niesamowicie podniosło czytelność kodu źródłowego.
+Jest to chyba najciekawsza rzecz w samym języku. Autorzy specyfikacji zdecydowali się na zastąpienie nawiasów klamrowych wcięciami, czyli tzw. białymi spacjami (ang. whitespace). Jest to dość nietypowe rozwiązanie, które okazało się bardzo rewolucyjne i niesamowicie podniosło czytelność kodu źródłowego.
 
 Sama idea spowodowała dużą polaryzację programistów. Jedni bardzo sobie chwalą to rozwiązanie, a inni przyzwyczajeni do języków przypominających składnią C są jej zaciekłymi wrogami. Osobiście jestem wielkim zwolennikiem takiego rozwiązania!
 
@@ -40,7 +40,7 @@ W Pythonie mamy kilka sposobów komentowania. Najprostszym z nich jest komentowa
 
     >>> # na ekranie otrzymamy: Hello World!
     ... print('Hello World!')
-    Hello Wold!
+    Hello World!
 
 Tu możemy zaobserwować zachowanie, o którym wspominaliśmy trochę wcześniej, tzn. kontynuacja jest oznaczana przez znak zachęty trzech kropek ``...``.
 
@@ -50,8 +50,8 @@ Kolejnym sposobem jest komentowanie inline tzn. w linijce. Tego typu komentarze 
 
 .. code-block:: python
 
-    >>> print('Hello Wold!')  # na ekranie otrzymamy: Hello World!
-    Hello Wold!
+    >>> print('Hello World!')  # na ekranie otrzymamy: Hello World!
+    Hello World!
 
 
 Multiline comments

@@ -7,7 +7,7 @@ Builtin and Keywords
 
 Keywords
 ========
-Słowa kluczowe (keywords) to wyrazy zarezerwoane do użytku Pythona. Nie można użyć słowa kluczowego jako nazwy zmiennej, nazwy funkcji czy innego identyfikatora. Każdy ze słów kluczowych odgrywa ważną rolę w tym języku. Lista słów kluczowych może być uzyskana wpisując:
+Słowa kluczowe (keywords) to wyrazy zarezerwowane do użytku Pythona. Nie można użyć słowa kluczowego jako nazwy zmiennej, nazwy funkcji czy innego identyfikatora. Każdy ze słów kluczowych odgrywa ważną rolę w tym języku. Lista słów kluczowych może być uzyskana wpisując:
 
 .. code-block:: python
 
@@ -44,7 +44,7 @@ W pierwszej linijce importujemy moduł ``keyword``. W drugiej linijce wypisujemy
     from keyword import kwlist
     print(kwlist)
 
-W tym przykładzie, z modułu ``keyword`` importujemy jedynie zmienną ``kwlist``. Przy takiej składni warto wspomnieć, że zmniejsza ona czytelność, nie podnosząc wcale efektywności kodu. Interpreter i tak wczyta najpierw całą zawartość modułu, następnie stworzy nową zmienną ``kwlist``, której przypisze odpowiednią wartość. Taki zapis zmniejsza czytelność kodu i zwiększa prawdopodobieństwo błędu.  Używając zapisu ``import module`` i następnie ``module.variable`` jendoznacznie wskazujemy z jakiego modułu korzystamy.
+W tym przykładzie, z modułu ``keyword`` importujemy jedynie zmienną ``kwlist``. Przy takiej składni warto wspomnieć, że zmniejsza ona czytelność, nie podnosząc wcale efektywności kodu. Interpreter i tak wczyta najpierw całą zawartość modułu, następnie stworzy nową zmienną ``kwlist``, której przypisze odpowiednią wartość. Taki zapis zmniejsza czytelność kodu i zwiększa prawdopodobieństwo błędu.  Używając zapisu ``import module`` i następnie ``module.variable`` jednoznacznie wskazujemy z jakiego modułu korzystamy.
 
 .. code-block:: python
 
@@ -114,7 +114,6 @@ Słowo kluczowe ``continue`` powoduje przerwanie aktualnie wykonywanej pętli i 
 
         name = line.split(':')[4]
         print(name)
-
 
 ``break``
 ---------

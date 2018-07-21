@@ -10,7 +10,7 @@ Funkcja ``print``
 =================
 .. code-block:: python
 
-    def print(*args, sep=' ', end='\n', file=None):
+    def print(*args, sep=' ', end='\n', file=sys.stdout, flush=False):
         """
         Prints the values to a stream, or to sys.stdout by default.
         Optional keyword arguments:
@@ -273,10 +273,10 @@ Numbers
 
     number = 35
 
-    '%d' % number          # '42'
-    '%d' % (number,)       # '42'
-    '{:d}'.format(number)  # '42'
-    f'{number:d}'          # '42'
+    '%d' % number          # '35'
+    '%d' % (number,)       # '35'
+    '{:d}'.format(number)  # '35'
+    f'{number:d}'          # '35'
 
 .. code-block:: python
 
@@ -458,11 +458,10 @@ Custom objects
 .. code-block:: python
 
     class HAL9000(object):
-
-    def __format__(self, format):
-        if (format == 'open-the-pod-bay-doors'):
-            return "I'm afraid I can't do that."
-        return 'HAL 9000'
+        def __format__(self, format):
+            if (format == 'open-the-pod-bay-doors'):
+                return "I'm afraid I can't do that."
+            return 'HAL 9000'
 
     '{:open-the-pod-bay-doors}'.format(HAL9000())
     # "I'm afraid I can't do that."
